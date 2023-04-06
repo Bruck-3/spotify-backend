@@ -1,0 +1,30 @@
+{
+  "name": "spotify-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruck-3/spotify-backend.git"
+  },
+  "author": "Bruck-3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruck-3/spotify-backend/issues"
+  },
+  "homepage": "https://github.com/Bruck-3/spotify-backend#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "query-string": "^7.1.1",
+    "randomstring": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
